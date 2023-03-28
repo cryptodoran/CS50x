@@ -1,0 +1,5 @@
+int size
+get size
+make size between 1-8 or return get size input from user
+output hashes
+create pyramid using math and then add spaces

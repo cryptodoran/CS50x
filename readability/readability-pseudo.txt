@@ -1,0 +1,8 @@
+0.0588 * L - 0.296 * S - 15.8
+^Coleman Liau Index
+
+Get input
+
+Count number of Words, Letters, and Sentences
+
+Output grade level

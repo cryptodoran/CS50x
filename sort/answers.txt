@@ -1,0 +1,11 @@
+sort1 uses: Bubble
+
+How do you know?: We saw during the lecture that, in the case of a large list of randomized inputs (numbers), bubble sort took signifcantly longer than both Selection and Merge. Running Sort1 on random50000.txt proved this theory.
+
+sort2 uses: Merge
+
+How do you know?: Sort 2 completed 'reversed50000.txt' the fastest. With that large of a dataset, finishing the fastest of the 3 must mean Sort 2 is using the merge sort algorithm.
+
+sort3 uses: Selection
+
+How do you know?: While faster than Sort1 on random50000.txt, Selection (or sort3), was slower to sort than 'Sort2'

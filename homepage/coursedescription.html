@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>This is CS50</title>
+        <script>
+            function blinkr()
+            {
+                let arrowr = document.querySelector('#arrowright');
+                if (arrowr.style.visibility === 'hidden')
+                {
+                    arrowr.style.visibility = 'visible';
+                }
+                else
+                {
+                    arrowr.style.visibility = 'hidden';
+                }
+            }
+            function blinkl()
+            {
+                let arrowl = document.querySelector('#arrowleft');
+                if (arrowl.style.visibility === 'hidden')
+                {
+                    arrowl.style.visibility = 'visible';
+                }
+                else
+                {
+                    arrowl.style.visibility = 'hidden';
+                }
+            }
+            window.setInterval(blinkr,600);
+            window.setInterval(blinkl,600);
+        </script>
+    </head>
+    <body>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Course Description</li>
+            <li class="breadcrumb-item"><a href="subreddit.html">Subreddit</a></li>
+            <li class="breadcrumb-item"><a href="syllabus.html">Testimonial</a></li>
+          </ol>
+        </nav>
+        <img src="this is cs50.png" alt="This is CS50" class="image">
+        <h1 class="bluetext"><b>Course Description</b></h1>
+        <p class="pinktext">Visit the main <strong>channel</strong>.</p>
+        <div class="text-center">
+            <i class="arrow right" id="arrowright"></i>
+            <button type="button" class="btn btn-outline-info"><a href="https://www.youtube.com/@cs50">This is CS50</a></button>
+            <i class="arrow left" id="arrowleft"></i>
+        </div>
+    </body>
+</html>
